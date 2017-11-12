@@ -95,7 +95,7 @@ header h1 {
 
 ul {
     list-style-type: none;
-    padding: 0;
+    padding: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
