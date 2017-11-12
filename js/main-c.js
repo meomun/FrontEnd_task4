@@ -20,7 +20,7 @@
 
 var showImages = function(){
 
-  var myRequest = new Request('../images.json');
+  var myRequest = new Request('./images.json');
   fetch(myRequest)
     .then(function(response) { return response.json(); })
     .then(function(data) {
@@ -45,7 +45,7 @@ var showImages = function(){
 
         figure.appendChild(a);
         figure.appendChild(figcaption);
-        
+
         listItem.appendChild(figure);
 
         myList.appendChild(listItem);

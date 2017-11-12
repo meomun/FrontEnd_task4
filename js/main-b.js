@@ -17,7 +17,7 @@
 
 var showImages = function(){
 
-  var myRequest = new Request('../images.json');
+  var myRequest = new Request('./images.json');
   var myList = document.querySelector('.primary-color ul')
   fetch(myRequest)
     .then(function(response) { return response.json(); })
